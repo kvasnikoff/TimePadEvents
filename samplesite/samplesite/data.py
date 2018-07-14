@@ -43,24 +43,26 @@ def mainfunc(request):
         ids = startups_ids
     elif request.path == '/english' or request.path == '/english/':
         ids = english_ids
-        
-   api key = 'token= '     
+    
+    
+   #API-ключ (опционально) 
+   api key = 'token= ' + '&'
     
 
 
     #ссылки на API на 6 дней начиная с сегодняшнего. Меняется только дата
 
-    url0 = 'https://api.timepad.ru/v1/events.json?' + api_key + '&skip=0&cities=Москва' + ids + '&fields=organization&sort=+starts_at&price_max=0' + '&starts_at_min=' + dt.strftime(
+    url0 = 'https://api.timepad.ru/v1/events.json?' + api_key + 'skip=0&cities=Москва' + ids + '&fields=organization&sort=+starts_at&price_max=0' + '&starts_at_min=' + dt.strftime(
         '%Y/%m/%d') + '&starts_at_max=' + d1.strftime('%Y/%m/%d')
-    url1 = 'https://api.timepad.ru/v1/events.json?' + api_key + '&skip=0&cities=Москва' + ids + '&fields=organization&sort=+starts_at&price_max=0' + '&starts_at_min=' + d1.strftime(
+    url1 = 'https://api.timepad.ru/v1/events.json?' + api_key + 'skip=0&cities=Москва' + ids + '&fields=organization&sort=+starts_at&price_max=0' + '&starts_at_min=' + d1.strftime(
         '%Y/%m/%d') + '&starts_at_max=' + d2.strftime('%Y/%m/%d')
-    url2 = 'https://api.timepad.ru/v1/events.json?' + api_key + '&skip=0&cities=Москва' + ids + '&fields=organization&sort=+starts_at&price_max=0' + '&starts_at_min=' + d2.strftime(
+    url2 = 'https://api.timepad.ru/v1/events.json?' + api_key + 'skip=0&cities=Москва' + ids + '&fields=organization&sort=+starts_at&price_max=0' + '&starts_at_min=' + d2.strftime(
         '%Y/%m/%d') + '&starts_at_max=' + d3.strftime('%Y/%m/%d')
-    url3 = 'https://api.timepad.ru/v1/events.json?' + api_key + '&skip=0&cities=Москва' + ids + '&fields=organization&sort=+starts_at&price_max=0' + '&starts_at_min=' + d3.strftime(
+    url3 = 'https://api.timepad.ru/v1/events.json?' + api_key + 'skip=0&cities=Москва' + ids + '&fields=organization&sort=+starts_at&price_max=0' + '&starts_at_min=' + d3.strftime(
         '%Y/%m/%d') + '&starts_at_max=' + d4.strftime('%Y/%m/%d')
-    url4 = 'https://api.timepad.ru/v1/events.json?' + api_key + '&skip=0&cities=Москва' + ids + '&fields=organization&sort=+starts_at&price_max=0' + '&starts_at_min=' + d4.strftime(
+    url4 = 'https://api.timepad.ru/v1/events.json?' + api_key + 'skip=0&cities=Москва' + ids + '&fields=organization&sort=+starts_at&price_max=0' + '&starts_at_min=' + d4.strftime(
         '%Y/%m/%d') + '&starts_at_max=' + d5.strftime('%Y/%m/%d')
-    url5 = 'https://api.timepad.ru/v1/events.json?' + api_key + '&skip=0&cities=Москва' + ids + '&fields=organization&sort=+starts_at&price_max=0' + '&starts_at_min=' + d5.strftime(
+    url5 = 'https://api.timepad.ru/v1/events.json?' + api_key + 'skip=0&cities=Москва' + ids + '&fields=organization&sort=+starts_at&price_max=0' + '&starts_at_min=' + d5.strftime(
         '%Y/%m/%d') + '&starts_at_max=' + d6.strftime('%Y/%m/%d')
 
     #переводим полученные запросы в строки
