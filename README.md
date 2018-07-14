@@ -7,6 +7,7 @@
 
 Основной код в файле [data.py](/samplesite/samplesite/data.py)
 
-<img width="1280" alt="screenshot2" src="https://user-images.githubusercontent.com/40367440/42727522-494220fe-87b1-11e8-8402-9f85ac6e67c5.png">
 <img width="1280" alt="screenshot1" src="https://user-images.githubusercontent.com/40367440/42727523-49629c12-87b1-11e8-899e-267597f864dd.png">
+<img width="1280" alt="screenshot2" src="https://user-images.githubusercontent.com/40367440/42727522-494220fe-87b1-11e8-8402-9f85ac6e67c5.png">
+
 
