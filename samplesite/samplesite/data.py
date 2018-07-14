@@ -5,7 +5,7 @@ from datetime import datetime, date, time, timedelta
 #организации, мероприятия которых мы берем, разбитые по категориям. Пригодится для API
 
 all_ids = '&organization_ids=112048,96892,108856,112048,22493,54324,110765,72736,69272,119918,113356,104358,123515,2381,4598,7447,70317,8680,2599,111924,42303,109455,55,124518,55575'
-excurs_ids = '&organization_ids=112048,96892,108856,112048'
+excurs_ids = '&organization_ids=112048,96892,108856,131400'
 science_ids = '&organization_ids=22493,54324,110765,72736,69272,119918'
 culture_ids = '&organization_ids=113356,104358,123515,2381,4598,7447,70317,8680'
 entertainment_ids = '&organization_ids=2599,111924,42303,54853'
