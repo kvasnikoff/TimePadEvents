@@ -1,5 +1,5 @@
 # TimePadEvents
-Агрегатор интересных бесплатных мероприятий с TimePad.ru, написанный на Python/Django с использованием Materialize Framework. <a href="http://events.kvasnikoff.com">events.kvasnikoff.com</a>
+Агрегатор интересных бесплатных мероприятий с TimePad.ru, написанный на Python/Django с использованием Materialize Framework: <a href="http://events.kvasnikoff.com">events.kvasnikoff.com</a>
 
 Показывает ивенты на ближайшие шесть дней.
 
